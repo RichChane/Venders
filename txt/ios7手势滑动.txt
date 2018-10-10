@@ -1,0 +1,16 @@
+ios7 手势滑动问题
+苹果一直都在人机交互中尽力做到极致，在iOS7中，新增加了一个小小的功能，也就是这个api：self.navigationController.interactivePopGestureRecognizer.enabled = YES;
+
+这个api功能就是在NavigationController堆栈内的UIViewController可以支持右滑手势，也就是不用点击右上角的返回按钮，轻轻在屏幕左边一滑，屏幕就会返回，随着ios设备屏幕的增大，这个小功能让手指短，拇指大和手残人士看到了福音。
+
+这个功能是好，但是经常我们会有需求定制返回按钮，如果手动定制了返回按钮，这个功能将会失效，也就是自定义了navigationItem的leftBarButtonItem，那么这个手势就会失效。解决方法找到两种
+ 
+1.重新设置手势的delegate
+
+self.navigationController.interactivePopGestureRecognizer.delegate = (id)self;
+
+2.当然你也可以自己响应这个手势的事件
+
+[self.navigationController.interactivePopGestureRecognizer addTarget:self action:@selector(handleGesture:)];
+ 
+有更多方法以后继续补充，这里可以根据自己需要进行选择，如果只是简单定制了返回按钮，第一种最简单，一句代码搞定。

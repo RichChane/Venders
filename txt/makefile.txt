@@ -1,0 +1,15 @@
+svn 常用命令：
+
+  svn co   check co 文件
+  svn up   更新文件
+  svn st   查看文件状态
+  svn commit  提交文件
+  svn diff  比较文件
+  svn info  查看svn相关信息
+  svn help  帮助
+
+
+ 其他命令：find,grep和exec的使用
+
+find /etc -name "passwd*" -exec grep "root" {} \;
+find . -name "*.log" -exec mv {} .. \;

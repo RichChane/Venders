@@ -1,0 +1,32 @@
+涨知识了
+1，利用html做欢迎页面，好处是可以做动态欢迎页面
+2,获取版本号
+3，跳转到app store
+4，做防逆向编译 http://blog.csdn.net/yiyaaixuexi/article/details/29201699
+5 版本集成(自动打包，需用到shell脚本)
+6 ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" 安装brew
+	brew install Caskroom/cask/java 利用brew安装java环境
+	brew install jenkins利用brew安装jenkins
+7 BeeFramework 一个全面的独立的开发框架  （UI响应式技术？）
+	BeeFramework本质是一款中规中矩的MVC框架，在原生App的基础上附加Hybrid UI特性及一些组件，大家用的最多的特性就是XML UI + Signal的组合，构成了Bee的一部分核心。
+	在Web前端领域已有更优秀的考虑更全面的响应式UI解决方案，被Business insider等多家评为未来的趋势。
+	BeeFramework能做什么
+			BeeModel封装数据存储（很多时候是NSMutableArray，也可以是SQL lite 数据库)。BeeUIBoard持有BeeModel, 对Server发出数据请求。MVC的M部分。
+* 		  BeeMessage封装网络逻辑协议，可解析为JSON, XML,数据，返回BeeModel本地存储，也可以更新界面。MVC的C部分。
+* 		  BeeUIBoard扩展了UIViewController, 通过BeeModel进行数据存储，通过BeeMessage进行数据通信，并管理自己的控件。MVC的V部分。
+* 		  BeeUIStack扩展了UINavigationController, 管理页面导航。BeeUIRouter是rootViewController。没错，就是iOS App的基本骨架。熟悉框架的时候可以先看这几个核心类的代码，。
+
+*         A2:  Bee的整体架构分层清晰，耦合少，支持多种程度的复用。
+
+
+			BeeSandBox: 封装和简化了应用程序沙箱的操作。
+		        BeeRuntime: 存储运行时的class, call stacks，用于反射。
+		        BeeSystemInfo: 查询是否越狱，屏幕尺寸，UUID, 设备类型（iPAD/iPhone)等实用信息。
+		        BeeThread: GCD的封装，提供foreQueue, backQueue两个队列。
+		        BeeDatabase: fmdatabse的封装，提供数据库功能。
+		        BeeFileCache, BeeMemoryCache, BeeImageCache, 缓存工具， FileCache通过key对文件缓存，Memory, ImageCache通过Array或Dictionary在内存中缓存。
+		        BeeUserDefaults: 封装和简化对User defaults的操作。
+		        BeeUIImageLoader: 封装通过GCD加载网络图片的流程。
+		        BeeUIKeyboard:封装键盘交互的各类delegate。
+		        BeeUISignal: Bee独有的事件类，提供附加对象，源对象，目标对象，调用路径等特性。
+		        BeeViewModel: 使用BeeUISignal的BeeModel, 支持事件，方便被UI对象持有。有几种子类支持不同的展示模型（简单展示，分页，向下拉去更多Content）。

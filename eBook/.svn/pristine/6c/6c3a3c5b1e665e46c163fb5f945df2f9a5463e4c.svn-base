@@ -1,0 +1,23 @@
+0000000000000000000000000000000000000000 e17fdca15397636c095bb0fc71e8a82b8f393848 shileidezhu <Demo> 1482916809 +0800	commit (initial): eBook for keli
+e17fdca15397636c095bb0fc71e8a82b8f393848 4cee98c3188ee9f08a7c12316d91df3daf0062b0 shileidezhu <Demo> 1482917116 +0800	commit: Test github
+4cee98c3188ee9f08a7c12316d91df3daf0062b0 33e549f7f136200654ddf0baae11454a76aba2c1 shileidezhu <Demo> 1482917147 +0800	commit: OK
+33e549f7f136200654ddf0baae11454a76aba2c1 756aa1074830965a99bcb038d1bf2e3b6e0903aa shileidezhu <Demo> 1482917677 +0800	commit: read me
+756aa1074830965a99bcb038d1bf2e3b6e0903aa 6319a6e9e394aa8781d9632face493690fca0ae4 shileidezhu <Demo> 1482917726 +0800	commit: read me
+6319a6e9e394aa8781d9632face493690fca0ae4 22ce86e948ba71f75b0c4c3a7b88548772d9f9bd shileidezhu <Demo> 1482917803 +0800	commit: read me
+22ce86e948ba71f75b0c4c3a7b88548772d9f9bd 24c3783ca286264e6a90893dd77fca4b6a4c6eeb shileidezhu <Demo> 1482917883 +0800	commit: readme
+24c3783ca286264e6a90893dd77fca4b6a4c6eeb 9cadb5fdb8d6ae68e5cc0e70a3bf12a97540d5a0 shileidezhu <Demo> 1482918268 +0800	commit: bug
+9cadb5fdb8d6ae68e5cc0e70a3bf12a97540d5a0 b0bcd45a5e4c58de45d605522ab4fb467935cf37 shileidezhu <Demo> 1482919646 +0800	commit: 注释
+b0bcd45a5e4c58de45d605522ab4fb467935cf37 7429b66f0e0815f9f13ac960691bfec610ee6a5c shileidezhu <Demo> 1483425866 +0800	merge origin/master: Fast-forward
+7429b66f0e0815f9f13ac960691bfec610ee6a5c 7c4663f1267feca3a168550354061c8610f8431b shileidezhu <Demo> 1483431562 +0800	commit: 优化
+7c4663f1267feca3a168550354061c8610f8431b 1cd979ce1873d00b5f46980fb8b30f903d0f5d09 shileidezhu <Demo> 1483438175 +0800	commit: pdf
+1cd979ce1873d00b5f46980fb8b30f903d0f5d09 f930fbd3c53a9e729f590b9f36e0d2f7a5df185f shileidezhu <Demo> 1484100189 +0800	commit: 书架 - 跑马灯
+f930fbd3c53a9e729f590b9f36e0d2f7a5df185f cd802ff4df8807b62750dbd6f414c8070835edba shileidezhu <Demo> 1484100194 +0800	rebase: checkout origin/master
+cd802ff4df8807b62750dbd6f414c8070835edba dc0b1bfb25d2dcb61e60041bc898ff8ebc6fcdea shileidezhu <Demo> 1484100194 +0800	rebase: 书架 - 跑马灯
+dc0b1bfb25d2dcb61e60041bc898ff8ebc6fcdea dc0b1bfb25d2dcb61e60041bc898ff8ebc6fcdea shileidezhu <Demo> 1484100194 +0800	rebase finished: returning to refs/heads/master
+dc0b1bfb25d2dcb61e60041bc898ff8ebc6fcdea 6dfada0fd13a88fbff01029764a1bb5ae504a160 shileidezhu <Demo> 1484271738 +0800	merge origin/master: Fast-forward
+6dfada0fd13a88fbff01029764a1bb5ae504a160 8207ab1363a3c402c5504fd4b2cfa0b04c3809c9 shileidezhu <Demo> 1484290692 +0800	commit: 书城
+8207ab1363a3c402c5504fd4b2cfa0b04c3809c9 429f4aed63ec0df7491d10fb98d7a99775fc3b99 shileidezhu <Demo> 1484529318 +0800	merge origin/master: Fast-forward
+429f4aed63ec0df7491d10fb98d7a99775fc3b99 ad76ecc1200d025bcd3ae4de8d27b9c2fe4ca062 shileidezhu <Demo> 1484529676 +0800	commit: 书城 书架UI
+ad76ecc1200d025bcd3ae4de8d27b9c2fe4ca062 108afe7ee857b30d6f929529c8da046eace5c0cd shileidezhu <Demo> 1484637701 +0800	commit: 网络层
+108afe7ee857b30d6f929529c8da046eace5c0cd 12b12252430cf98c6802d2f9b2b7987b69b29c74 shileidezhu <Demo> 1484643343 +0800	commit: pdf缩放
+12b12252430cf98c6802d2f9b2b7987b69b29c74 4002ee0638c5e25ab76d03bf0cba1aae7585c42f shileidezhu <Demo> 1484644819 +0800	commit: 11

@@ -1,0 +1,7 @@
+找到应用程序的描述链接，比如：http://itunes.apple.com/gb/app/yi-dong-cai-bian/id391945719?mt=8
+然后将 http:// 替换为 itms:// 或者 itms-apps://：
+ itms://itunes.apple.com/gb/app/yi-dong-cai-bian/id391945719?mt=8
+ itms-apps:// itunes.apple.com/gb/app/yi-dong-cai-bian/id391945719?mt=8  
+
+然后打开这个链接地址：
+[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"itms://itunes.apple.com/gb/app/yi-dong-cai-bian/id391945719?mt=8"]];
